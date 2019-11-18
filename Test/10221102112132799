@@ -1,0 +1,330 @@
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512485 
+ Ack num: 1021388402 
+ Payload 
+220 H3 FTP server (Version wu-2.6.1-18) ready.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388402 
+ Ack num: 1118512533 
+ Payload 
+ AUTH GSSAPI
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512533 
+ Ack num: 1021388415 
+ Payload 
+530 Please login with USER and PASS.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388415 
+ Ack num: 1118512571 
+ Payload 
+ AUTH KERBEROS_V4
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512571 
+ Ack num: 1021388433 
+ Payload 
+530 Please login with USER and PASS.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388433 
+ Ack num: 1118512609 
+ Payload 
+ USER cs6262
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512609 
+ Ack num: 1021388446 
+ Payload 
+331 Password required for cs6262.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388446 
+ Ack num: 1118512644 
+ Payload 
+ PASS Re=mi3vE4
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512644 
+ Ack num: 1021388462 
+ Payload 
+230 User cs6262 logged in.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388462 
+ Ack num: 1118512672 
+ Payload 
+ SYST
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512672 
+ Ack num: 1021388468 
+ Payload 
+215 UNIX Type: L8
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388468 
+ Ack num: 1118512691 
+ Payload 
+ TYPE I
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512691 
+ Ack num: 1021388476 
+ Payload 
+200 Type set to I.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388476 
+ Ack num: 1118512711 
+ Payload 
+ TYPE A
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512711 
+ Ack num: 1021388484 
+ Payload 
+200 Type set to A.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388484 
+ Ack num: 1118512731 
+ Payload 
+ PASV
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512731 
+ Ack num: 1021388490 
+ Payload 
+227 Entering Passive Mode (10,2,2,1,23,145)
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388490 
+ Ack num: 1118512776 
+ Payload 
+ LIST
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512776 
+ Ack num: 1021388496 
+ Payload 
+150 Opening ASCII mode data connection for directory listing.
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512839 
+ Ack num: 1021388496 
+ Payload 
+226 Transfer complete.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388496 
+ Ack num: 1118512863 
+ Payload 
+ PASV
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512863 
+ Ack num: 1021388502 
+ Payload 
+227 Entering Passive Mode (10,2,2,1,5,199)
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388502 
+ Ack num: 1118512907 
+ Payload 
+ LIST
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512907 
+ Ack num: 1021388508 
+ Payload 
+150 Opening ASCII mode data connection for directory listing.
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512970 
+ Ack num: 1021388508 
+ Payload 
+226 Transfer complete.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388508 
+ Ack num: 1118512994 
+ Payload 
+ CWD /tmp
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118512994 
+ Ack num: 1021388518 
+ Payload 
+250 CWD command successful.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388518 
+ Ack num: 1118513023 
+ Payload 
+ PASV
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513023 
+ Ack num: 1021388524 
+ Payload 
+227 Entering Passive Mode (10,2,2,1,152,78)
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388524 
+ Ack num: 1118513068 
+ Payload 
+ LIST
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513068 
+ Ack num: 1021388530 
+ Payload 
+150 Opening ASCII mode data connection for directory listing.
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513131 
+ Ack num: 1021388530 
+ Payload 
+226 Transfer complete.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388530 
+ Ack num: 1118513155 
+ Payload 
+ PASV
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513155 
+ Ack num: 1021388536 
+ Payload 
+227 Entering Passive Mode (10,2,2,1,177,181)
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388536 
+ Ack num: 1118513201 
+ Payload 
+ LIST
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513201 
+ Ack num: 1021388542 
+ Payload 
+150 Opening ASCII mode data connection for directory listing.
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513264 
+ Ack num: 1021388542 
+ Payload 
+226 Transfer complete.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388542 
+ Ack num: 1118513288 
+ Payload 
+ TYPE I
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513288 
+ Ack num: 1021388550 
+ Payload 
+200 Type set to I.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388550 
+ Ack num: 1118513308 
+ Payload 
+ PASV
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513308 
+ Ack num: 1021388556 
+ Payload 
+227 Entering Passive Mode (10,2,2,1,162,33)
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388556 
+ Ack num: 1118513353 
+ Payload 
+ RETR hosts
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513353 
+ Ack num: 1021388568 
+ Payload 
+150 Opening BINARY mode data connection for hosts (213 bytes).
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513417 
+ Ack num: 1021388568 
+ Payload 
+226 Transfer complete.
+
+
+FTP Client 10.2.1.1 to Server 10.2.1.1 
+SEQ num: 1021388568 
+ Ack num: 1118513441 
+ Payload 
+ QUIT
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513441 
+ Ack num: 1021388574 
+ Payload 
+221-You have transferred 213 bytes in 1 files.
+
+
+FTP Server 10.2.2.1 to client 10.2.2.1 
+SEQ num: 1118513489 
+ Ack num: 1021388574 
+ Payload 
+221-Total traffic for this session was 1337 bytes in 1 transfers.
+221 Thank you for using the FTP service on H3.
